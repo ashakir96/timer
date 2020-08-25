@@ -5,7 +5,6 @@ for (let item of input) {
   if (!isNaN(item) && item > 0) {
     setTimeout(() => {
       process.stdout.write('\007');
-      console.log(item);
     }, item * 1000)
   } 
 }
